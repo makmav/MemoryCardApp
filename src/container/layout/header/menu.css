@@ -31,7 +31,7 @@ h1 {
   top: 20px;
   color: white;
   text-align: center;
-  line-height: 40px;
+  line-height: 45px;
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
   transition: -webkit-transform ease-out 200ms;
