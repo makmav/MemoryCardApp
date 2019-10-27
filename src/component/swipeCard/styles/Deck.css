@@ -33,7 +33,6 @@ body {
 }
 
 #cusRoot > div > div {
-    padding: 5px;
     background-color: white;
     background-size: auto 85%;
     background-repeat: no-repeat;
@@ -81,7 +80,6 @@ h5:last-of-type {
 }
 .card {
     height: 540px !important;
-    overflow: scroll;
 }
 
 .slider-control-bottomcenter {

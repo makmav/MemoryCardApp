@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { animated, interpolate } from "react-spring/hooks";
-import InfoCard from "./InfoCard";
+import CardContent from "../../container/card/Card";
 
 class Card extends React.Component {
     render() {
@@ -23,7 +23,7 @@ class Card extends React.Component {
                     }}
                 >
                     <div className="card">
-                        <InfoCard source={data[i]}/>
+                        <CardContent source={data[i]}/>
                     </div>
                 </animated.div>
             </animated.div>
